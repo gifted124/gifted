@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lone.css">
+</head>
+<body>
+    
+    <div class="back">
+        <a href="./index.html">
+        <button><h1>back</h1></button></a>
+    </div>
+    <form id="myform" onsubmit="return Validateform(event)">
+        <div class="lone">
+            <div class="vllo"><h2>Fist name</h2></div>
+            <div class="put">
+            <input type="text" id="f_name" placeholder="FIST NAME " />
+            <p id="f_name_err" class="error"></p>
+        </div>
+        </div>
+        <div class="lone">
+            <div class="vllo"><h2>Last name</h2></div>
+            <div class="put6">
+            <input type="text" id="l_name" placeholder="LAST NAME" />
+            <p id="l_name_err" class="error"></p>
+        </div>
+        </div>
+        <div class="lone">
+            <div class="vllo"><h2>password</h2></div>
+            <div class="put1">
+            <input type="password" id="password" placeholder="PASSWORD" />
+            <p id="password_err" class="error"></p>
+            </div>
+        </div>
+        <div class="lone">
+            <div class="vllo"><h2>Account number</h2></div>
+            <div class="put2">
+                <input type="lName" id="l_name" placeholder="account num
+                " />
+                <p id="l_name_err" class="error"></p>
+            </div>
+        </div>
+        <div class="lone">
+            <div class="vllo" id="Amount">
+                <h2 id="Amount">Loan Amount</h2>
+            </div>
+            <div class="put3">
+                <input type="number" id="l_name" placeholder="Loan Amount" />
+                <p id="l_name_err" class="error"></p>
+            </div>
+        </div>
+
+        <button>submit</button>
+        <p id="loan" class="loan11"></p>
+
+    </form> 
+    <script src="./java.js"></script>
+</body>
+</html>
